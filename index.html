@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown timer</title>
+    
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body id="body">
+    <h1 id="main-title"></h1>
+
+    <div class="malu-info">
+        <p>Nome: Maria Luíza</p>
+        <p>Idade: <span id="birth-date"></span></p>
+        <p>Nascida em: 23/11/2020</p>
+    </div>
+
+    <div class="countdown-container">
+        <div class="countdown-el days-container">
+            <p class="big-text" id="days">0</p>
+            <span>dias</span>
+        </div>
+        <div class="countdown-el hours-container">
+            <p class="big-text" id="hours">0</p>
+            <span>horas</span>
+        </div>
+        <div class="countdown-el minutes-container">
+            <p class="big-text" id="minutes">0</p>
+            <span>minutos</span>
+        </div>
+        <div class="countdown-el seconds-container">
+            <p class="big-text" id="seconds">0</p>
+            <span>segundos</span>
+        </div>
+    </div>
+
+    <select onchange="handleTypeSelection()" name="birth" id="birth">
+        <option value="feb" selected>Fevereiro</option>
+        <option value="mar">Março</option>
+        <option value="apr">Abril</option>
+        <option value="may">Maio</option>
+        <option value="jun">Junho</option>
+        <option value="jul">Julho</option>
+        <option value="aug">Agosto</option>
+        <option value="sep">Setembro</option>
+        <option value="oct">Outubro</option>
+        <option value="nov">Novembro</option>
+    </select>
+
+    <script src="./script.js"></script>
+</body>
+</html>
