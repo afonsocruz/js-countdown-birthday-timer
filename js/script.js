@@ -42,61 +42,61 @@ const handleTypeSelection = () => {
         case 'feb':
             maluBirthday = '23 Feb 2021';
             handleTitleChange(defaultTitle);
-            body.style.backgroundImage = 'url(./malu.jpeg)';
+            body.style.backgroundImage = 'url(./assets/malu.jpeg)';
             fillAllParagraphs();
             break;
         case 'mar':
             maluBirthday = '23 Mar 2021';
             handleTitleChange(defaultTitle);
             fillAllParagraphs();
-            body.style.backgroundImage = 'url(./malu2.jpeg)';
+            body.style.backgroundImage = 'url(./assets/malu2.jpeg)';
             break;
         case 'apr':
             maluBirthday = '23 Apr 2021';
             handleTitleChange(defaultTitle);
-            body.style.backgroundImage = 'url(./malu3.jpeg)';
+            body.style.backgroundImage = 'url(./assets/malu3.jpeg)';
             fillAllParagraphs();
             break;
         case 'may':
             maluBirthday = '23 May 2021';
             handleTitleChange(defaultTitle);
-            body.style.backgroundImage = 'url(./malu4.jpeg)';
+            body.style.backgroundImage = 'url(./assets/malu4.jpeg)';
             fillAllParagraphs();
             break;
         case 'jun':
             maluBirthday = '23 Jun 2021';
             handleTitleChange(defaultTitle);
-            body.style.backgroundImage = 'url(./malu5.jpeg)';
+            body.style.backgroundImage = 'url(./assets/malu5.jpeg)';
             fillAllParagraphs();
             break;
         case 'jul':
             maluBirthday = '23 Jul 2021';
             handleTitleChange(defaultTitle);
-            body.style.backgroundImage = 'url(./malu6.jpeg)';
+            body.style.backgroundImage = 'url(./assets/malu6.jpeg)';
             fillAllParagraphs();
             break;
         case 'aug':
             maluBirthday = '23 Aug 2021';
             handleTitleChange(defaultTitle);
-            body.style.backgroundImage = 'url(./malu7.jpeg)';
+            body.style.backgroundImage = 'url(./assets/malu7.jpeg)';
             fillAllParagraphs();
             break;
         case 'sep':
             maluBirthday = '23 Sep 2021';
             handleTitleChange(defaultTitle);
-            body.style.backgroundImage = 'url(./malu8.jpeg)';
+            body.style.backgroundImage = 'url(./assets/malu8.jpeg)';
             fillAllParagraphs();
             break;
         case 'oct':
             maluBirthday = '23 Oct 2021';
             handleTitleChange(defaultTitle);
-            body.style.backgroundImage = 'url(./malu10.jpeg)';
+            body.style.backgroundImage = 'url(./assets/malu10.jpeg)';
             fillAllParagraphs();
             break;
         case 'nov':
             handleTitleChange('Completo 1 aninho nessa data!');
             maluBirthday = '23 Nov 2021';
-            body.style.backgroundImage = 'url(./malu9.jpeg)';
+            body.style.backgroundImage = 'url(./assets/malu9.jpeg)';
             fillAllParagraphs();
             break;
         default:

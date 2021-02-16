@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: url("./malu.jpeg");
+  background-image: url("../assets/malu.jpeg");
   height: 100vh;
   background-size: cover;
   background-position: center center;
